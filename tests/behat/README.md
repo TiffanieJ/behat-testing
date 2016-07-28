@@ -163,6 +163,17 @@ Web Starter by default comes with two behat-grunt tasks:
  $ bin/behat features/test-js.feature  -p local-selenium
 
  ```
+ 
+ 8. Selenium requires ChromeDriver, a separate executable, to control Chrome. Ensure that the latest version of ChromeDriver is installed in your tests/behat directory and run 
+ 
+ ```
+ $ vagrant ssh
+ $ cd /vagrant/tests/behat
+ $ ./chromedriver
+
+ ```
+ 
+
 ## Behat Example Features
  1. Example Behat features can be run and reviewed to provide a basis to build your own custom Behat features
  2. Example Features can be found in tests/behat/features
