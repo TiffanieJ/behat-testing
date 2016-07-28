@@ -158,7 +158,6 @@ Web Starter by default comes with two behat-grunt tasks:
  7. You can now run behat with Selenium Grid 2 on the Guest VM which will request Browsers from the Host
 
  ```
- $ vagrant ssh
  $ cd /vagrant/tests/behat
  $ bin/behat features/test-js.feature  -p local-selenium
 
